@@ -22,7 +22,7 @@ else if(!check.checked){
 }
 	alert(`Logged in as ${inp.value}`);
 });
-logintn.addEventListener("click",(e)=>{
+loginBtn.addEventListener("click",(e)=>{
 	let username = JSON.parse(localStorage.getItem("userdata")).username;
 	alert(`Logged in as ${username}`);
 })
